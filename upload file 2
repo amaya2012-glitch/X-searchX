@@ -1,0 +1,8 @@
+// fileUpload.js
+document.getElementById('fileInput').addEventListener('change', function(event) {
+    const files = event.target.files;
+    for (let file of files) {
+        console.log(`Uploaded file: ${file.name}`);
+        // Implement file handling logic
+    }
+});
